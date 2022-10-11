@@ -1,0 +1,20 @@
+.option {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.wrong {
+    background-color: red;
+    color: yellow;
+}
+
+.correct {
+    background-color: green;
+}
