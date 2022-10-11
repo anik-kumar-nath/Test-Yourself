@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import 'react-toastify/dist/ReactToastify.css';
 import Option from '../Option/Option';
 import './Quiz.css'
@@ -32,7 +34,6 @@ const Quiz = ({ index, question, answer, options }) => {
         theme: "light",
     });
 
-    // const Answer = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, dolorem adipisci quaerat nemo tenetur magni fugiat blanditiis. itecto voluptatibus animi.";
     const correct = () => toast.success('😊 WoW Correct!!!', {
         position: "top-center",
         autoClose: 1000,
@@ -61,7 +62,7 @@ const Quiz = ({ index, question, answer, options }) => {
                     <div>
                         <strong>Quiz-{index}.</strong> <code>{question}</code>
                     </div>
-                    <div> <strong onClick={() => information(answer)} className='show-answer mx-2'>@</strong></div>
+                    <div> <strong onClick={() => information(answer)} className='show-answer mx-2'> <i className="fa-solid fa-eye"></i> </strong></div>
                 </div>
                 <div className="container">
                     <div className="form-check options">
