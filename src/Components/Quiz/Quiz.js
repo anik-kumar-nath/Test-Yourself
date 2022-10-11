@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Option from '../Option/Option';
 import './Quiz.css'
 
 const Quiz = ({ index, question, answer, options }) => {
@@ -65,16 +66,8 @@ const Quiz = ({ index, question, answer, options }) => {
                 <div className="container">
                     <div className="form-check options">
                         {
-                            options.map((option, index1) =>
-                                <>
-                                    <label className="form-check-label option" htmlFor={`option-${index}-${index1 + 1}`}  >
-                                        <input onClick={(e) => { handleRadioChange(e, answer) }} className="form-check-input" type="radio" name={`option-${index}`} id={`option-${index}-${index1 + 1}`} value={option} />
-                                        <code>{option}</code>
-                                    </label>
-                                </>
-                            )
+                            options.map((option, index1) => <Option key={index1} index={index} index1={index1} option={option} answer={answer} handleRadioChange={handleRadioChange}></Option>)
                         }
-
                     </div>
                 </div>
             </div>

@@ -1,0 +1,9 @@
+.option {
+    background-color: rgb(196, 202, 202);
+    padding: 1%;
+    margin: 1% 2%;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 90%;
+}
