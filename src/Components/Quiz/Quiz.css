@@ -1,14 +1,18 @@
-.option {
-    display: flex;
-    justify-content: start;
-    gap: 1rem;
-    cursor: pointer;
-}
-
 .options {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
 }
+
+.option {
+    background-color: rgb(196, 202, 202);
+    padding: 1%;
+    margin: 1% 2%;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 
 .wrong {
     background-color: red;
@@ -17,4 +21,24 @@
 
 .correct {
     background-color: green;
+}
+
+.quiz-body {
+    background-color: rgb(251, 232, 255);
+    padding: 2%;
+    margin: 2% auto;
+}
+
+code {
+    color: black;
+}
+
+.show-answer {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 350px) and (max-width: 720px) {
+    .options {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

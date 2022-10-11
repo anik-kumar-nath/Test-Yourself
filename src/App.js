@@ -5,7 +5,6 @@ import Main from './Layout/Main';
 import Topics from './Components/Topics/Topics';
 import Statistics from './Components/Statistics/Statistics';
 import Blog from './Components/Blog/Blog';
-import Quiz from './Components/Quiz/Quiz';
 import Quizzes from './Components/Quizzes/Quizzes';
 
 function App() {
@@ -31,7 +30,6 @@ function App() {
           },
           element: <Quizzes></Quizzes>
         },
-
         {
           path: '/blog',
           element: <Blog></Blog>
