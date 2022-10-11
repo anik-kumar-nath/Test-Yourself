@@ -1,0 +1,32 @@
+* {
+    transition: all 0.2s ease-out;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items a {
+    font-size: 1.3rem;
+    margin: 3%;
+    padding: 1%;
+    width: fit-content;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: rgb(20, 250, 154);
+}
+
+.default {
+    color: rgb(54, 59, 59);
+}
+
+.active_item {
+    line-height: 1.3rem;
+    display: inline-block;
+    color: #414042;
+    text-decoration: none;
+    border-bottom: solid 2px #414042;
+    padding: 0;
+}
