@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className="container-fluid bg-secondary">
+        <div className="container-fluid bg-secondary sticky-top">
             <div className="container d-flex justify-content-md-between align-items-center flex-md-row flex-column p-2">
                 <div className="logo">
                     <h2 className='text-bg-success p-3 bolder'>Test Yourself</h2>

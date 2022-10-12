@@ -9,11 +9,11 @@ const Topics = () => {
     return (
         <div className="page-decoration">
             <div className="banner">
-                <h1>
+                <img className='img-fluid rounded-circle' src="https://as2.ftcdn.net/v2/jpg/02/87/32/35/1000_F_287323520_v9fstjqruSwmnJsPRM0HR726E79lm1UX.jpg" alt="" />
+                <h1 className='fs-1 bolder'>
                     ONLINE QUIZ
                 </h1>
-                <img src="./test_yourself.jpg" alt="" />
-                <small>Test Yourself</small>
+                <strong><small>"Quizzes encourage pupils' self-awareness of progress and self-assessment. By taking quizzes, pupils get instant feedback on their responses. And this can help you to identify areas you need to develop yourself and highlight progress for them to be proud of."</small></strong>
             </div>
             <div className='topics-decoration container-fluid px-md-3 px-0'>
                 {
