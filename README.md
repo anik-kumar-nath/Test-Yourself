@@ -13,14 +13,14 @@ Another feature I have shown the topics quiz data in a chart on the statistic pa
 
 <h3>Main Page and Quiz Page</h3>
 <p align="center">
-  <img alt="Home page" src="test_yourself1.png"  width="45%">
-  <img alt="quiz page" src="test_yourself2.png" width="45%">
+  <img alt="Home page" src="./project_screen_shot/test_yourself1.png"  width="45%">
+  <img alt="quiz page" src="./project_screen_shot/test_yourself2.png" width="45%">
 </p>
 
 <h3>Another Feature page</h3>
 <p align="center">
-  <img alt="staticstic page" src="test_yourself3.png" height="200" width="45%">
-  <img alt="Blog page" src="test_yourself4.png" height="200" width="45%">
+  <img alt="statistics page" src="./project_screen_shot/test_yourself3.png" height="200" width="45%">
+  <img alt="Blog page" src="./project_screen_shot/test_yourself4.png" height="200" width="45%">
 <p>
 
 ## Installation and Setup Instructions 

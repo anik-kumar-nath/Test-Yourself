@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import 'react-toastify/dist/ReactToastify.css';
 import Option from '../Option/Option';
 import './Quiz.css'
@@ -19,10 +17,7 @@ const Quiz = ({ index, question, answer, options }) => {
     const handleRadioChange = (e, ans) => {
         setRadioValue(e.target.value);
         setAnswer(ans);
-        console.log(e.target.value, "||||", ans);
     };
-
-
     const information = (Answer) => toast.info(Answer, {
         position: 'top-right',
         autoClose: 3000,
@@ -33,8 +28,7 @@ const Quiz = ({ index, question, answer, options }) => {
         progress: undefined,
         theme: "light",
     });
-
-    const correct = () => toast.success('😊 WoW Correct!!!', {
+    const correct = () => toast.success('😊 Wow Correct!!!', {
         position: "top-center",
         autoClose: 1000,
         hideProgressBar: false,
