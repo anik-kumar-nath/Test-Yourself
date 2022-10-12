@@ -12,6 +12,7 @@ const Topics = () => {
                 <h1>
                     ONLINE QUIZ
                 </h1>
+                <img src="./test_yourself.jpg" alt="" />
                 <small>Test Yourself</small>
             </div>
             <div className='topics-decoration container-fluid px-md-3 px-0'>
