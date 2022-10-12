@@ -11,8 +11,8 @@ const Header = () => {
                 </div>
                 <div className="nav-items d-flex justify-content-md-end justify-content-around">
                     <NavLink role="button" to={'/'} className='default p-2 mx-2 btn btn-primary'>Topics</NavLink>
-                    <NavLink role="button" to={'/statistics'} className={`p-2 mx-2 btn btn-outline-info bolder ${({ isActive }) => isActive ? 'active' : undefined}`}>Statistics</NavLink>
-                    <NavLink role="button" to={'/blog'} className={`p-2 mx-2 btn btn-outline-info bolder ${({ isActive }) => isActive ? 'active' : undefined}`}>Blog</NavLink>
+                    <NavLink role="button" to={'/statistics'} className={`p-2 mx-2 btn btn-outline-info fw-bolder ${({ isActive }) => isActive ? 'active' : undefined}`}>Statistics</NavLink>
+                    <NavLink role="button" to={'/blog'} className={`p-2 mx-2 btn btn-outline-info fw-bolder ${({ isActive }) => isActive ? 'active' : undefined}`}>Blog</NavLink>
                 </div>
             </div>
         </div>
