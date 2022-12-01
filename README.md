@@ -2,12 +2,12 @@
 
 ### Test Yourself
 
-An application used to take quiz in four different topics, built with React, javaScript, Bootstrap and CSS.
+React.js Web Application for practicing with multiple topics quizzes.
 
 ## Project Status
 
-This project is currently in development. Users can Perform the four different topics quiz test and also see the correct answer. Functionality has been used to show correct or wrong messages based on user activity.
-Another feature I have shown the topics quiz data in a chart on the statistic page, and some blog posts have been shown on a Blog page.
+This project is currently in development. Users can Perform the four different topics quiz test and also see the correct answer. Functionality has been used to show correct or wrong messages toast based on user selection activity.
+Another feature I have shown is the topics quiz data in a chart on the statistic page, and some blog posts have been shown on a Blog page.
 
 ## Project Screen Shot(s) 
 
